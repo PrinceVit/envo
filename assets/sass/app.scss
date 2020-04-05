@@ -1,0 +1,34 @@
+//----------------------------------*\
+// SETTINGS
+//----------------------------------*/
+@charset "UTF-8";
+@import "settings";
+
+
+/*!
+	FrontLauncher
+	License: MIT
+ 	Author: Daniel Kita <t.trax0@gmail.com>
+ 	Repo: https://github.com/T-TraX/FrontLauncher
+*/
+
+
+
+//----------------------------------*\
+// VENDOR
+//----------------------------------*/
+
+@import "foundation",
+		"node_modules/sweetalert2/src/sweetalert2",
+		"foundationPartials";
+
+//----------------------------------*\
+// COMPONENTS
+//----------------------------------*/
+
+@import "stylesheets/abstracts/**/*";
+@import "stylesheets/base/**/*";
+@import "stylesheets/layout/**/*";
+@import "stylesheets/components/**/*";
+@import "stylesheets/pages/**/*";
+@import "stylesheets/themes/**/*";

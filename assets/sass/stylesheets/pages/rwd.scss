@@ -1,0 +1,146 @@
+//s9
+@media only screen and (max-width: 740px) and (orientation: landscape) {
+  .laptop {
+    left: 0 !important;
+  }
+  .header {
+    &.active {
+      background: red;
+    }
+  }
+  .section--darkWhite {
+    padding-bottom: 40px;
+  }
+  .section--six {
+    padding-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) and (orientation: portrait) {
+  .header {
+    &--title {
+      font-size: 7.5vw;
+    }
+  }
+  .main-view--background {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .main-view--background::before {
+    height: 20px;
+    z-index: 2;
+  }
+
+  .main-view {
+    min-height: 60vh;
+    position: relative;
+  }
+}
+
+//s9
+
+//Ipad
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .section--six {
+    padding-top: 40px;
+  }
+  .laptop {
+    left: 0 !important;
+  }
+  .section--two {
+    padding-bottom: 60px;
+  }
+}
+
+//
+
+// iphone 6,7,8
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+  .section--six {
+    padding-top: 50px;
+  }
+  .laptop {
+    left: 0 !important;
+  }
+
+  .section--darkWhite {
+    padding-bottom: 40px;
+  }
+
+  .main-view--background::before {
+    height: 30px;
+    top: -10px;
+  }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+  .main-view--background::before {
+    top: -20px;
+  }
+  .section--darkWhite {
+    padding-bottom: 30px;
+  }
+  .section--img {
+    padding-top: 0;
+    min-height:30vh;
+  }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+  .section--img {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: portrait) {
+  .section--darkWhite {
+    padding-bottom: 20px;
+  }
+
+  .section--six {
+    min-height: 70vh;
+    height: 100%;
+  }
+
+  .section--img{
+    min-height: 25vh;
+    height: 100%;
+  }
+  .section--img img{
+    height: 100%;
+    position: absolute;
+  }
+  .main-view--background::before{
+    top:-10px;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
+  .laptop {
+    left: 0 !important;
+  }
+}
+
+@media only screen and (min-device-width: 800px) and (max-device-width: 1200px) and (orientation: portrait) {
+  .section--six{
+    min-height:55vh;
+  }
+  .section--img::after{
+    top:30px;
+  }
+
+  .section--img{
+    min-height:25.6vh;
+  }
+}
+
+@media only screen and (max-width:360px) and (orientation: portrait) {
+  .main-view--background::before{
+    height:10px;
+    top:-10px;
+  }
+  .section--six{
+    padding-top:50px;
+  }
+}
